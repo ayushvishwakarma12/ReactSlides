@@ -1,0 +1,18 @@
+.header {
+  background-color: #dbeafe;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+}
+
+.logo {
+  width: 130px;
+  height: 80px;
+}
+
+.nxt-slides {
+  font-family: 'Bree Seriff';
+  padding-left: 10px;
+  font-size: 40px;
+  margin: 0px;
+}

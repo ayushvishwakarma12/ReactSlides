@@ -1,0 +1,42 @@
+.each-slides {
+  height: 200px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 20px 0px 20px 0px;
+  cursor: pointer;
+}
+
+.each-slide-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.slide-heading {
+  font-family: 'Bree Seriff';
+  font-size: 30px;
+  color: #0967d2;
+}
+
+.slide-description {
+  font-family: 'Bree Seriff';
+  font-size: 18px;
+  color: #0f172a;
+}
+
+.active-slide {
+  background-color: #dbeafe;
+}
+
+.slide-number {
+  margin: 10px 10px 0px 0px;
+  padding: 10px;
+  font-weight: 500;
+}

@@ -1,0 +1,39 @@
+.app-bg-container {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.slides-container {
+  max-height: 90vh;
+  display: flex;
+  width: 100%;
+}
+
+.new-slide-button {
+  background-color: #dbeafe;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.new-plus-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.new-slide-text {
+  font-family: 'Bree Seriff';
+  margin: 0px 0px 0px 5px;
+  font-size: 20px;
+}
+
+.slide-preview {
+  width: 100%;
+  min-height: 90vh;
+  padding: 30px;
+}
